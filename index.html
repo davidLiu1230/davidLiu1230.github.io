@@ -1,72 +1,56 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <p id="demo"></p>
+  <script id='testJsScript' type="text/javascript" src="js/test.js">
+  </script>
   </head>
   <body>
-    <div class="fixed">
-      <nav class="top-bar">
-        <ul class="title-area">
-          <li class="name">
-            <img src="img/mario-land.jpg" class="title-icon">
-            <h1 class="title"><a href="#">My <span style="color:green">Website!!!HAHA</span></a></h1>
-          </li>
+    <div>
+      <li class="has-dropdown hover">
+        <a href="#">Month</a>
+        <ul id="month-list" class="dropdown">
+          <li class="month" data-month="01"><a href="#">January 2013</a></li>
         </ul>
-        <section class="top-bar-section">
-          <!-- Right Nav Section -->
-          <ul class="right">
-            <li id="about-nav"><a href="#about" data-reveal-id="about-modal">About&nbsp;&nbsp;</a></li>
-            <li class="has-dropdown hover">
-              <a href="#">Month</a>
-              <ul id="month-list" class="dropdown">
-                <li class="month" data-month="01"><a href="#">January 2013</a></li>
-              </ul>
-            </li>
-            <li class="search-engines">
-              <h3>Ref Test</h3>
-              <a href="http://www.google.com">Visit Google</a>
-              <a href="http://www.youtube.com">Visit Youtube</a>
-              <a href="http://www.yelp.com">Visit Yelp</a>
-            </li>
-            <li>
-              <h3>Table Experiment</h3>
-              <table>
-                <tr>
-                  <th>Title 1</th>
-                  <th>Title 2</th>
-                </tr>
-                <tr>
-                  <td>Cell 3</td>
-                  <td>Cell 4</td>
-                </tr>
-              </table>
-            </li>
-            <li>
-              <h3>Meter Gauge Experiment</h3>
-              <meter value='2' min='0' max='10'>test gauge 1</meter><br>
-              <meter value='0.6'>test gauge 2</meter>
-            </li>
-            <li>
-              <h3>Buttons!</h3>
-              <button type='button' onclick="alert('I am a button!')">Click Me!</button>
-            </li>
-            <li>
-              <h3>Dropdown Select<h3>
-              <option value='stanford'>Stanford</option>
-              <option value='berkeley'>Berkeley</option>
-              <option value='usf'>USF</options>
-            </li>
-            <li>
-              <img src="img/the_scream.jpg" width="220" height="277" alt="Alt Text">
-              <p><cite>The Scream Cite Text!</cite> by Edward Munch - normal text</p>
-            </li>
-          </ul>
-        </section>
-      </nav>
-
+      </li>
+      <li class="search-engines">
+        <h3>Ref Test</h3>
+        <a href="http://www.google.com">Visit Google</a>
+        <a href="http://www.youtube.com">Visit Youtube</a>
+        <a href="http://www.yelp.com">Visit Yelp</a>
+      </li>
+      <li>
+        <h3>Table Experiment</h3>
+        <table>
+          <tr>
+            <th>Title 1</th>
+            <th>Title 2</th>
+          </tr>
+          <tr>
+            <td>Cell 3</td>
+            <td>Cell 4</td>
+          </tr>
+        </table>
+      </li>
+      <li>
+        <h3>Meter Gauge Experiment</h3>
+        <meter value='2' min='0' max='10'>test gauge 1</meter><br>
+        <meter value='0.6'>test gauge 2</meter>
+      </li>
+      <li>
+        <h3>Buttons!</h3>
+        <button type='button' onclick="alert('I am a button!')">Click Me!</button>
+      </li>
+      <li>
+        <h3>Dropdown Select<h3>
+        <option value='stanford'>Stanford</option>
+        <option value='berkeley'>Berkeley</option>
+        <option value='usf'>USF</options>
+      </li>
+      <li>
+        <img src="img/the_scream.jpg" width="220" height="277" alt="Alt Text">
+        <p><cite>The Scream Cite Text!</cite> by Edward Munch - normal text</p>
+      </li>
     </div>
-    
   </body>
 </html>
