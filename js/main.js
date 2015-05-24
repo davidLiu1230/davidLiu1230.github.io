@@ -4,9 +4,9 @@
 // There usage will become more apparent further along in the tutorial.
 require.config({
   paths: {
-    jquery: 'vendor/jquery-1.11.3.min.js',
-    underscore: 'vendor/underscore-1.8.3.min.js',
-    backbone: 'vendor/backbone-1.2.0.min.js'
+    jquery: 'vendor/jquery-1.11.3.min',
+    underscore: 'vendor/underscore-1.8.3.min',
+    backbone: 'vendor/backbone-1.2.0.min'
   }
 
 });
