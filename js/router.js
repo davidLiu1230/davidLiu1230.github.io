@@ -1,10 +1,8 @@
-// Filename: router.js
 define([
   'jquery',
   'underscore',
-  'backbone',
-  'view/master',
-], function($, _, Backbone, MasterView){
+  'backbone'
+], function($, _, Backbone){
   var AppRouter = Backbone.Router.extend({
     routes: {
       // Default

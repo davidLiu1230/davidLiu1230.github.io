@@ -1,13 +1,15 @@
-// Filename: app.js
 define([
   'jquery',
   'underscore',
   'backbone',
   'router', // Request router.js
-], function($, _, Backbone, Router){
+  'view/master'
+], function($, _, Backbone, Router, MasterView){
   var initialize = function(){
     console.log('Initializing router');
-    console.log($('#content'));
+    // Render the home page
+    var masterView = new MasterView();
+    masterView.render();
     // Pass in our Router module and call it's initialize function
     Router.initialize();
   }
