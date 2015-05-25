@@ -1,12 +1,9 @@
 // Require.js allows us to configure shortcut alias
 require.config({
-  // This is to resolve the issue where it looks like
-  //relative path is not available in requireJS text plug-in
-  baseUrl: "../",
   paths: {
-    jquery: 'js/vendor/jquery-1.11.3.min',
-    underscore: 'js/vendor/underscore-1.8.3.min',
-    backbone: 'js/vendor/backbone-1.2.0.min'
+    jquery: 'vendor/jquery-1.11.3.min',
+    underscore: 'vendor/underscore-1.8.3.min',
+    backbone: 'vendor/backbone-1.2.0.min'
   }
 
 });
