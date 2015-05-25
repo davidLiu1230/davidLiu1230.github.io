@@ -29,16 +29,6 @@ $primary-color: #87D37C;
     }
   }
   
-  .account {
-    position: absolute;
-    top: 3%;
-    right: 3%;
-    
-    a , i {
-      color: #fff;
-    }
-  }
-  
   @media only screen and (min-width: 40.063em) {
   height: 5rem;
   
@@ -49,23 +39,6 @@ $primary-color: #87D37C;
     
     a:hover {
       border-bottom: 2px solid $primary-color;
-    }
-  }
-  
-  .account-action {
-    float: right;
-    margin: -.75rem 0 0 0;
-    
-    li {
-      margin-left: .2rem;
-    }
-    
-    a { padding: 0.75rem 1rem;}
-    
-    a.signup {
-      font-weight: bold;
-      background-color: scale-color($background-color, $lightness: 10%);
-      border-radius: 3px;
     }
   }
 }
