@@ -11,8 +11,10 @@ define([
   var MasterView = Backbone.View.extend({
     el: $('#container'),
     render: function(){
+      console.log('Inside view.render()');
       // Using Underscore we can compile our template with data
       var compiledTemplate = _.template(MasterTemplate);
+      console.log(compiledTemplate);
       // Append our compiled template to this Views "el"
       this.$el.find('#content').append(compiledTemplate);
     }
