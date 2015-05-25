@@ -1,10 +1,12 @@
 // Require.js allows us to configure shortcut alias
 require.config({
-  baseUrl: "../template",
+  // This is to resolve the issue where it looks like
+  //relative path is not available in requireJS text plug-in
+  baseUrl: "../",
   paths: {
-    jquery: 'vendor/jquery-1.11.3.min',
-    underscore: 'vendor/underscore-1.8.3.min',
-    backbone: 'vendor/backbone-1.2.0.min'
+    jquery: 'js/vendor/jquery-1.11.3.min',
+    underscore: 'js/vendor/underscore-1.8.3.min',
+    backbone: 'js/vendor/backbone-1.2.0.min'
   }
 
 });
@@ -12,7 +14,7 @@ require.config({
 require([
 
   // Load our app module and pass it to our definition function
-  'app',
+  'js/app',
 ], function(App){
   // The "app" dependency is passed in as "App"
   console.log('Initializing App');

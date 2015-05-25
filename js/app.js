@@ -2,8 +2,8 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  'router', // Request router.js
-  'view/master'
+  'js/router', // Request router.js
+  'js/view/master'
 ], function($, _, Backbone, Router, MasterView){
   var initialize = function(){
     console.log('Initializing router');
