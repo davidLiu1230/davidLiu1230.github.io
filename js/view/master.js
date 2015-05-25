@@ -5,7 +5,7 @@ define([
   'backbone',
   // Using the Require.js text! plugin, we are loaded raw text
   // which will be used as our views primary template
-  'text!/template/master.html'
+  'text!/../../template/master.html'
 ], function($, _, Backbone, MasterTemplate){
 
   var MasterView = Backbone.View.extend({
