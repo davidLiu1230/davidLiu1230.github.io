@@ -7,6 +7,7 @@ define([
 ], function($, _, Backbone, Router){
   var initialize = function(){
     console.log('Initializing router');
+    console.log($('#content'));
     // Pass in our Router module and call it's initialize function
     Router.initialize();
   }

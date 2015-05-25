@@ -13,7 +13,6 @@ define([
   });
 
   var initialize = function(){
-    $('#content').html('<h2>Hello World!</h2>');
     var app_router = new AppRouter;
     console.log('Inside router.initialize');
     app_router.on('defaultAction', function(actions){
