@@ -1,5 +1,6 @@
 // Require.js allows us to configure shortcut alias
 require.config({
+  baseUrl: "/template",
   paths: {
     jquery: 'vendor/jquery-1.11.3.min',
     underscore: 'vendor/underscore-1.8.3.min',
