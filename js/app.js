@@ -6,7 +6,6 @@ define([
   'view/master'
 ], function($, _, Backbone, Router, MasterView){
   var initialize = function(){
-    console.log('Initializing router');
     // Render the home page
     var masterView = new MasterView();
     masterView.render();

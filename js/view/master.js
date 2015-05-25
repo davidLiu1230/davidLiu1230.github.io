@@ -3,20 +3,22 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  // Using the Require.js text! plugin, we are loaded raw text
-  // which will be used as our views primary template
-  'text!template/master.html'
+  // Using the Require.js text! plugin
+  'text!template/master.html',
+  'css!../compiled/css/master.css'
 ], function($, _, Backbone, MasterTemplate){
 
   var MasterView = Backbone.View.extend({
     el: $('#container'),
     render: function(){
-      console.log('Inside view.render()');
-      // Using Underscore we can compile our template with data
-      var compiledTemplate = _.template(MasterTemplate);
-      console.log(compiledTemplate);
-      // Append our compiled template to this Views "el"
-      this.$el.find('#content').append(compiledTemplate);
+
+      var template = _.template(MasterTemplate);
+      var data = {
+        // TODO
+      };
+
+      // Assign template to this Views "el"
+      this.$el.html(template);
     }
   });
 
