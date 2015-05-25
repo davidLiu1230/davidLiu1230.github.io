@@ -5,7 +5,7 @@ define([
   'backbone',
   // Using the Require.js text! plugin
   'text!template/master.html',
-  'css!../compiled/css/master.css'
+  //'css!../compiled/css/master.css'
 ], function($, _, Backbone, MasterTemplate){
 
   var MasterView = Backbone.View.extend({
