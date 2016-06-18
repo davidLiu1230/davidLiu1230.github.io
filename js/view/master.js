@@ -15,6 +15,12 @@ define([
       var template = _.template(MasterTemplate);
       // Assign template to this Views "el"
       this.$el.html(template);
+      // Turn on the ripple effect
+      $('body').ripples({
+        resolution: 512,
+        dropRadius: 20,
+        perturbance: 0.04,
+      });
     }
   });
 
