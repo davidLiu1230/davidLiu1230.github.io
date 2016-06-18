@@ -3,10 +3,11 @@ define([
   'jquery',
   'underscore',
   'backbone',
+  'jqueryRipples',
   // Using the Require.js text! plugin
   'text!template/master.html',
   'css!compiled/css/master.css'
-], function($, _, Backbone, MasterTemplate){
+], function($, _, Backbone, Ripples, MasterTemplate){
 
   var MasterView = Backbone.View.extend({
     el: $('.wrapper'),
