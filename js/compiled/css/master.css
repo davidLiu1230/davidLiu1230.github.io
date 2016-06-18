@@ -2,11 +2,11 @@ body {
   padding-top: 150px; }
 
 .starter-template {
+  color: white;
   padding: 40px 15px;
   text-align: center; }
   .starter-template .welcome-text {
-    font-size: 64px;
-    color: white; }
+    font-size: 64px; }
 
 .background img.bg {
   /* Set rules to fill background */
