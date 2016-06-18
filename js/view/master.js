@@ -9,7 +9,7 @@ define([
 ], function($, _, Backbone, MasterTemplate){
 
   var MasterView = Backbone.View.extend({
-    el: $('#container'),
+    el: $('.wrapper'),
     render: function(){
 
       var template = _.template(MasterTemplate);
