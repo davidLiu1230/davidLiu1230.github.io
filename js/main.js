@@ -4,7 +4,7 @@ require.config({
     jquery: 'vendor/jquery-1.11.3.min',
     underscore: 'vendor/underscore-1.8.3.min',
     backbone: 'vendor/backbone-1.2.0.min',
-    bootstrap: 'bootstrap-3.3.6/js/bootstrap.min.js'
+    bootstrap: 'bootstrap-3.3.6/js/bootstrap.min.js',
     jqueryRipples: 'vendor/jquery.ripples.js'
   }
 
