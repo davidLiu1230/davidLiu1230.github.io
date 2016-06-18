@@ -26,6 +26,13 @@
       .menu a:hover {
         border-bottom: 2px solid #87D37C; } }
 
+html {
+  background: url(../images/test.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 .name {
   text-align: center;
   font-size: 2.0rem;
