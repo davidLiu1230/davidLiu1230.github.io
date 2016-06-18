@@ -8,10 +8,14 @@ body {
   .starter-template .welcome-text {
     font-size: 64px; }
 
+.navbar-header .navbar-nav a {
+  color: white;
+  font-size: 20px; }
+
 .background img.bg {
   /* Set rules to fill background */
   min-height: 100%;
-  min-width: 1024px;
+  min-width: 1280px;
   z-index: -1;
   /* Set up proportionate scaling */
   width: 100%;
