@@ -1,67 +1,9 @@
-$background-color: aliceblue;
-$primary-color: #87D37C;
-
-.menu {
-  background-color: $background-color;
-  padding: 1.5rem 2rem;
-  height: 1.5rem;
-  opacity: 0.9;
-
-  .inline-list {
-    text-align: center;
-    
-    li {
-      float: none;
-      padding-right: 1.5rem;
-      display: inline-block;
-    }
-    
-    a {
-      color: black;
-      padding-bottom: 0.5rem;
-      font-family: monospace;
-
-      &:hover {
-        color: $primary-color;
-        transition: all .3s ease-in-out;
-      }
-    }
-    
-    .active a {
-      color: $primary-color;
-    }
-  }
-  
-  @media only screen and (min-width: 40.063em) {
-  
-  .inline-list { 
-    float: left;
-    font-size: 1.5rem;
-    margin: 0 0 0 1.5rem;
-    }
-    
-    a:hover {
-      border-bottom: 2px solid $primary-color;
-    }
-  }
+body {
+  padding-top: 50px;
 }
-
-.name {
-  font-family: monospace;
+.starter-template {
+  padding: 40px 15px;
   text-align: center;
-  font-size:  2.0rem;
-  line-height: 1;
-  margin: 0 0 1rem 0;
-  color: black;
-  
-  i {
-    color: $primary-color;
-    margin-right: 0.5rem;
-  }
-  
-  @media only screen and (min-width: 40.063em) {
-    float: left;
-  }
 }
 
 img.bg {
