@@ -1,11 +1,12 @@
-$background-color: #292c2f;
+$background-color: aliceblue;
 $primary-color: #87D37C;
 
 .menu {
   background-color: $background-color;
   padding: 1.5rem 2rem;
-  height: 2rem;
-  
+  height: 1.5rem;
+  opacity: 0.9;
+
   .inline-list {
     text-align: center;
     
@@ -16,9 +17,10 @@ $primary-color: #87D37C;
     }
     
     a {
-      color: #fff;
+      color: black;
       padding-bottom: 0.5rem;
-      
+      font-family: monospace;
+
       &:hover {
         color: $primary-color;
         transition: all .3s ease-in-out;
@@ -45,15 +47,8 @@ $primary-color: #87D37C;
   }
 }
 
-html { 
-  background: url(../images/test.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .name {
+  font-family: monospace;
   text-align: center;
   font-size:  2.0rem;
   line-height: 1;
