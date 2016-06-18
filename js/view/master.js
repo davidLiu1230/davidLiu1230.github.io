@@ -13,10 +13,6 @@ define([
     render: function(){
 
       var template = _.template(MasterTemplate);
-      var data = {
-        // TODO
-      };
-
       // Assign template to this Views "el"
       this.$el.html(template);
     }
