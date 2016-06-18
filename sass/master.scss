@@ -33,7 +33,6 @@ $primary-color: #87D37C;
   }
   
   @media only screen and (min-width: 40.063em) {
-  height: 2rem;
   
   .inline-list { 
     float: left;
@@ -53,7 +52,7 @@ $primary-color: #87D37C;
   font-size:  2.0rem;
   line-height: 1;
   margin: 0 0 1rem 0;
-  color: #fff;
+  color: black;
   
   i {
     color: $primary-color;
